@@ -52,7 +52,6 @@ public class Complexo {
         roh=Math.sqrt(real*real+img*img);
         roh=Math.sqrt(roh);
         Complexo[] raizes= new Complexo[2];
-        int []a=new int [5];
         if(real>0)
             arco=Math.atan(img/real);
         else if(real<0)
@@ -65,7 +64,7 @@ public class Complexo {
             arco=Math.PI*3/4;
         v1=arco/2;
         v2=arco/2+Math.PI;
-        raizes[0].real=(roh*Math.cos(v1));
+        raizes[0].real=(Math.cos(v1)*roh);
         raizes[0].img=(roh*Math.sin(v1));
         raizes[1].real=(roh*Math.cos(v2));
         raizes[1].img=(roh*Math.sin(v2));

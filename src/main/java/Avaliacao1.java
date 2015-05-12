@@ -12,7 +12,7 @@ import utfpr.ct.dainf.if62c.avaliacao.Complexo;
 public class Avaliacao1 {
     public static Complexo[] raizesEquacao(Complexo a, Complexo b, Complexo c){
         Complexo delta;
-        Complexo[] w = new Complexo [2];
+        Complexo[] w ;
         Complexo b2;
         delta=a.prod(b);
         delta=delta.prod(-4);
@@ -35,7 +35,7 @@ public class Avaliacao1 {
         Complexo a1 = new Complexo (1,0);
         Complexo a2 = new Complexo (2,0);
         Complexo a3 = new Complexo (5,0);
-        Complexo[]w = new Complexo [2];
+        Complexo[]w = raizesEquacao(a,b,c);
         //w=raizesEquacao(a,b,c);
         System.out.println(b.soma(a));
         System.out.println(w[1]);
