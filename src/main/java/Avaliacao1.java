@@ -35,10 +35,10 @@ public class Avaliacao1 {
         Complexo a1 = new Complexo (1,0);
         Complexo a2 = new Complexo (2,0);
         Complexo a3 = new Complexo (5,0);
-        Complexo[]w = raizesEquacao(a,b,c);
+        //Complexo[]w = raizesEquacao(a,b,c);
         //w=raizesEquacao(a,b,c);
         System.out.println(b.soma(a));
-        System.out.println(w[1]);
+        //System.out.println(w[1]);
         
         // implementar main
     }
